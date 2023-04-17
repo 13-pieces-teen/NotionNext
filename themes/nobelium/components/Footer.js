@@ -25,7 +25,7 @@ export const Footer = (props) => {
      <div className="my-4 text-sm leading-6">
        <div className="flex align-baseline justify-between flex-wrap">
          <p>
-           © {BLOG.AUTHOR} {copyrightDate}
+           <a href="https://beian.miit.gov.cn/" >苏ICP备2023002852号-1</a>
          </p>
          <Vercel />
        </div>
